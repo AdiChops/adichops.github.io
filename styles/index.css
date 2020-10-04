@@ -143,9 +143,6 @@ html,body{
 } code to add flipping ability*/
 
 @media all and (min-width: 768px){
-    #projects{
-        height:100%;
-    }
     .projectsgrid{
         grid-template-columns: 1fr 1fr;
         padding-left:2em;
