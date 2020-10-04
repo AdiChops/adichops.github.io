@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+#initial{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-image: url('../images/ottawa.jpg');
+    background-attachment: fixed;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.navbar-brand{
+    font-size:2em;
+}
+h1{
+    font-size:3em;
+    text-align:center;
+}
+#initial h1{
+    margin:0;
+    padding:0;
+    background-color:black;
+    color:white;
+}
+nav{
+    opacity:0.75;
+}
+#about{  
+    display: grid;
+    grid-template-rows: 1fr 5fr 1fr;
+    background-color:#5E574D;
+    color:white;
+}
+#about > h1{
+    margin-top:0.5em;
+    border: double 2px white;
+    width:70%;
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+}
+#projects{
+    background:url("../images/summary_picture.JPG");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    text-align:center;
+    display: grid;
+    grid-template-rows: 1fr 5fr 1fr;
+}
+#projects > h1{
+    margin-top:0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    width:55%;
+    color:white;
+    background-color:black
+}
+#work_experience{
+    height:100%;
+    background-color:#828C51;
+}
+#volunteer_experience{
+    height:100%;
+    background-color:green;
+}
+#summary{
+    margin-left:auto;
+    margin-right:auto;
+    width:95%;
+    border: double 2px white;
+    padding:1em;
+}
+html,body{
+    margin:0;
+    padding:0;
+    height:100%;
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+    /* text-transform: lowercase; */
+}
+.not-on-mobile{
+    display:none;
+}
+#hellos{
+    text-align:center;
+}
+
+#gohome{
+    position: fixed;
+    z-index: 4;
+    left: 0.5em;
+    bottom: 0.5em;
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+    font-size: 3em;
+    color: black;
+    background-color: white;
+    opacity: 0.65;
+    display:none;
+}
+
+.emphasis{
+    font-size:1.5em;
+}
+.projectsgrid{
+    display:grid;
+    grid-template-columns:1fr;
+    row-gap: 2em;
+    column-gap: 2em;
+
+}
+.projectsgrid > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:black;
+    color:white;
+    perspective: 1000px;
+}
+/* .projimg {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.projectsgrid > div:hover, .projimg {
+    transform: rotateY(180deg);
+}
+
+.projimg, .projdesc {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+} code to add flipping ability*/
+
+@media all and (min-width: 768px){
+    #projects{
+        height:100%;
+    }
+    .projectsgrid{
+        grid-template-columns: 1fr 1fr;
+        padding-left:2em;
+        padding-right:2em;
+    }
+    #summary{
+        width:100%;
+    }
+    #about{
+        height:100%;
+        row-gap: 2em;
+    }
+    #about > div{
+        display:grid;
+        grid-template-columns: 1fr 4fr 1fr;
+    }
+    .not-on-mobile{
+        display:block;
+    }
+    .only-mobile{
+        display:none;
+    }
+    #about img{
+        float:right;
+    }
+}
+
+@media all and (min-width: 1024px){
+    .projectsgrid{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
