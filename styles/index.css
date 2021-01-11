@@ -50,6 +50,7 @@ nav{
     grid-template-rows: 1fr 5fr 1fr;
 }
 #projects > h1{
+    height:fit-content;
     margin-top:0.5em;
     margin-left: auto;
     margin-right: auto;
@@ -119,6 +120,9 @@ html,body{
     background-color:black;
     color:white;
     perspective: 1000px;
+}
+.projimg{
+    display:none;
 }
 /* .projimg {
     position: relative;
