@@ -1,28 +1,46 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-#initial{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    background-image: url('../images/ottawa.jpg');
+body{
+    /* background-image: url('../images/ottawa.jpg'); */
     background-attachment: fixed;
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center;
 }
+#initial{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-bottom: 300%;
+}
 .navbar-brand{
     font-size:2em;
+}
+.testing{
+    margin: 1em;
+}
+div.testing#first{
+    border: solid 5px black;
+
+}
+.testing > .other{
+    color: blue;
 }
 h1{
     font-size:3em;
     text-align:center;
 }
-#initial h1{
+#myName{
     margin:0;
     padding:0;
+    width:2.7ch;
+    position: fixed;
+    overflow:hidden;
+    white-space: nowrap;
     background-color:black;
     color:white;
 }
+
 nav{
     opacity:0.75;
 }
@@ -172,6 +190,10 @@ html,body{
     #about img{
         float:right;
     }
+}
+
+@media screen and (hover:hover){
+
 }
 
 @media all and (min-width: 1024px){
