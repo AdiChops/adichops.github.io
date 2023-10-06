@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 body{
-    /* background-image: url('../images/ottawa.jpg'); */
+    background-image: url('../images/ottawa.jpg');
     background-attachment: fixed;
     background-size:cover;
     background-repeat: no-repeat;
