@@ -1,0 +1,64 @@
+<?xml version="1.0" standalone="yes"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<svg width="280px" height="240px" viewBox="0 0 280 240" version="1.1" xmlns="http://www.w3.org/2000/svg">
+
+<g style="fill: yellow; stroke: black; stroke-width: 2;">
+  <circle cx="20" cy="20" r="15" />
+
+  <circle cx="20" cy="60" r="15" />
+  <circle cx="60" cy="60" r="15" />
+
+  <circle cx="20" cy="100" r="15" />
+  <circle cx="60" cy="100" r="15" />
+  <circle cx="100" cy="100" r="15" />
+
+  <circle cx="20" cy="140" r="15" />
+  <circle cx="60" cy="140" r="15" />
+  <circle cx="100" cy="140" r="15" />
+  <circle cx="140" cy="140" r="15" />
+
+  <circle cx="20" cy="180" r="15" />
+  <circle cx="60" cy="180" r="15" />
+  <circle cx="100" cy="180" r="15" />
+  <circle cx="140" cy="180" r="15" />
+  <circle cx="180" cy="180" r="15" />
+
+  <circle cx="20" cy="220" r="15" />
+  <circle cx="60" cy="220" r="15" />
+  <circle cx="100" cy="220" r="15" />
+  <circle cx="140" cy="220" r="15" />
+  <circle cx="180" cy="220" r="15" />
+  <circle cx="220" cy="220" r="15" />
+</g>
+
+<g style="fill: red; stroke: black; stroke-width: 2;">
+  <circle cx="260" cy="220" r="15" />
+
+  <circle cx="260" cy="180" r="15" />
+  <circle cx="220" cy="180" r="15" />
+
+  <circle cx="260" cy="140" r="15" />
+  <circle cx="220" cy="140" r="15" />
+  <circle cx="180" cy="140" r="15" />
+
+  <circle cx="260" cy="100" r="15" />
+  <circle cx="220" cy="100" r="15" />
+  <circle cx="180" cy="100" r="15" />
+  <circle cx="140" cy="100" r="15" />
+
+  <circle cx="260" cy="60" r="15" />
+  <circle cx="220" cy="60" r="15" />
+  <circle cx="180" cy="60" r="15" />
+  <circle cx="140" cy="60" r="15" />
+  <circle cx="100" cy="60" r="15" />
+
+  <circle cx="260" cy="20" r="15" />
+  <circle cx="220" cy="20" r="15" />
+  <circle cx="180" cy="20" r="15" />
+  <circle cx="140" cy="20" r="15" />
+  <circle cx="100" cy="20" r="15" />
+  <circle cx="60" cy="20" r="15" />
+</g>
+
+</svg>
