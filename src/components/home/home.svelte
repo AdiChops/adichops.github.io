@@ -1,0 +1,41 @@
+<main>
+    <div id="summary">
+        <p id="status">{status}</p>
+        <p id="name">Aaditya Chopra</p>
+    </div>
+    <div id="pinwheel">
+        <img src="/images/pinwheel.svg" alt="Gears">
+    </div>
+</main>
+
+<style>
+    @import './home.css';
+</style>
+
+<script>
+    import { onMount } from 'svelte';
+
+    import { gsap } from 'gsap';
+
+    import { ScrollTrigger } from 'gsap/ScrollTrigger';
+    import { ScrollToPlugin } from 'gsap/ScrollToPlugin';
+
+    gsap.registerPlugin(ScrollTrigger, ScrollToPlugin);
+
+    onMount(()=>{
+        gsap.to("#pinwheel", {
+            scrollTrigger:{
+                trigger: "#pinwheel",
+                start: "50% 50%",
+                end: "bottom top",
+                markers: true,
+                scrub: 1
+            },
+            rotation: 360,
+            duration: 3
+        });
+
+    });
+
+    export const status = 'Fullstack Developer with a focus on backend development';
+</script>

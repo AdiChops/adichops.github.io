@@ -1,0 +1,86 @@
+<!-- <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <defs>
+    <linearGradient gradientUnits="userSpaceOnUse" x1="550.42" y1="42.467" x2="550.42" y2="493.634" id="gradient-0">
+      <stop offset="0" style="stop-color: rgba(0, 0, 0, 1)"></stop>
+      <stop offset="1" style="stop-color: rgba(0, 0, 0, 1)"></stop>
+    </linearGradient>
+    <linearGradient id="color-0" bx:pinned="true">
+      <stop style="stop-color: #12c2e9;" offset="0"></stop>
+      <stop style="stop-color: #c471ed;" offset="0.5"></stop>
+      <stop style="stop-color: #f64f59;" offset="1"></stop>
+    </linearGradient>
+    <linearGradient id="color-1" bx:pinned="true">
+      <stop style="stop-color: #30e8bf;" offset="0"></stop>
+      <stop style="stop-color: #ff8235;" offset="1"></stop>
+    </linearGradient>
+    <linearGradient id="color-2" bx:pinned="true">
+      <stop style="stop-color: #00f260;" offset="0"></stop>
+      <stop style="stop-color: #0575e6;" offset="1"></stop>
+    </linearGradient>
+    <linearGradient id="color-3" bx:pinned="true">
+      <stop style="stop-color: #ffd89b;" offset="0"></stop>
+      <stop style="stop-color: #19547b;" offset="1"></stop>
+    </linearGradient>
+    <linearGradient id="color-4" bx:pinned="true">
+      <stop style="stop-color: #dd3e54;" offset="0"></stop>
+      <stop style="stop-color: #6be585;" offset="1"></stop>
+    </linearGradient>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, -27.86698, -22.285353)">
+    <g>
+      <path d="M 510.879 279.214 L 392.667 164.767 L 496.881 63.871 C 499.338 61.492 500.139 57.945 498.932 54.79 C 497.725 51.635 494.73 49.451 491.264 49.197 L 306.054 35.636 C 303.469 35.438 300.929 36.357 299.095 38.133 L 180.885 152.579 L 76.681 51.694 C 74.222 49.314 70.558 48.54 67.302 49.709 C 64.043 50.879 61.787 53.778 61.525 57.133 L 47.505 236.435 C 47.31 238.938 48.251 241.398 50.085 243.173 L 168.307 357.631 L 64.102 458.517 C 61.646 460.896 60.845 464.443 62.052 467.598 C 63.259 470.752 66.254 472.937 69.72 473.191 L 254.909 486.752 C 255.131 486.77 255.356 486.776 255.579 486.776 C 257.928 486.776 260.193 485.875 261.868 484.254 L 380.088 369.798 L 484.302 470.693 C 486.001 472.338 488.275 473.215 490.592 473.215 C 491.63 473.215 492.676 473.04 493.681 472.678 C 496.94 471.508 499.196 468.609 499.458 465.254 L 513.456 285.952 C 513.654 283.449 512.711 280.989 510.879 279.214 Z" style="paint-order: stroke; fill: url(#gradient-0); fill-rule: nonzero; stroke: rgb(0, 0, 0);"></path>
+      <path style="fill: url(#color-1); stroke: rgb(0, 0, 0);" d="M 180.884 345.453 L 80.59 248.352 L 219.395 263.286 C 219.828 275.422 224.007 286.923 231.419 296.527 L 180.884 345.453 Z"></path>
+      <path style="fill: url(#color-3); stroke: rgb(0, 0, 0);" d="M 247.688 468.953 L 247.688 468.953 L 90.377 457.434 L 243.997 308.704 C 250.306 313.265 257.406 316.558 264.962 318.465 L 247.688 468.953 Z"></path>
+      <path style="fill: url(#color-1); stroke: rgb(0, 0, 0);" d="M 267.218 454.721 L 267.218 454.721 L 282.643 320.34 C 295.179 319.921 307.06 315.874 316.981 308.698 L 367.512 357.62 L 267.218 454.721 Z"></path>
+      <path style="fill: url(#color-3); stroke: rgb(0, 0, 0);" d="M 483.183 445.256 L 483.183 445.256 L 386.383 351.536 C 386.382 351.535 386.38 351.533 386.378 351.531 L 329.548 296.512 C 334.318 290.309 337.663 283.402 339.598 276.207 L 495.073 292.941 L 483.183 445.256 Z"></path>
+      <path style="fill: url(#color-1); stroke: rgb(0, 0, 0);" d="M 480.371 274.032 L 480.371 274.032 L 341.547 259.091 C 341.12 247.358 337.124 235.729 329.548 225.878 L 380.091 176.944 L 480.371 274.032 Z"></path>
+      <path style="fill: url(#color-1); stroke: rgb(0, 0, 0);" d="M 293.747 67.663 L 293.747 67.663 L 278.332 202.05 C 265.798 202.468 253.92 206.513 243.999 213.686 L 193.462 164.756 L 293.747 67.663 Z"></path>
+      <path style="fill: url(#color-3); stroke: rgb(0, 0, 0);" d="M 313.276 53.434 L 313.276 53.434 L 470.609 64.955 L 373.804 158.675 C 373.803 158.676 373.802 158.678 373.801 158.678 L 316.979 213.691 C 310.671 209.129 303.57 205.833 296.013 203.926 L 313.276 53.434 Z"></path>
+      <path style="fill: url(#color-3); stroke: rgb(0, 0, 0);" d="M 77.798 77.129 L 77.798 77.129 L 174.589 170.839 C 174.592 170.841 174.593 170.843 174.595 170.844 L 231.42 225.86 C 226.705 231.97 223.301 238.848 221.33 246.166 L 65.89 229.445 L 77.798 77.129 Z"></path>
+      <path style="fill: white; stroke: rgb(0, 0, 0);" d="M 311.141 290.876 L 311.141 290.876 C 302.953 298.804 292.065 303.17 280.484 303.17 C 268.904 303.17 258.017 298.804 249.827 290.876 C 241.639 282.948 237.128 272.407 237.128 261.195 C 237.128 249.982 241.639 239.442 249.828 231.514 C 258.016 223.586 268.904 219.219 280.484 219.219 C 292.066 219.219 302.952 223.586 311.141 231.514 C 328.046 247.881 328.046 274.51 311.141 290.876 Z"></path>
+    </g>
+  </g>
+</svg> -->
+
+<!-- without outer -->
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <defs>
+    <linearGradient gradientUnits="userSpaceOnUse" x1="550.42" y1="42.467" x2="550.42" y2="493.634" id="gradient-0">
+      <stop offset="0" style="stop-color: rgba(0, 0, 0, 1)"></stop>
+      <stop offset="1" style="stop-color: rgba(0, 0, 0, 1)"></stop>
+    </linearGradient>
+    <linearGradient id="color-0" bx:pinned="true">
+      <stop style="stop-color: #12c2e9;" offset="0"></stop>
+      <stop style="stop-color: #c471ed;" offset="0.5"></stop>
+      <stop style="stop-color: #f64f59;" offset="1"></stop>
+    </linearGradient>
+    <linearGradient id="color-1" bx:pinned="true">
+      <stop style="stop-color: #30e8bf;" offset="0"></stop>
+      <stop style="stop-color: #ff8235;" offset="1"></stop>
+    </linearGradient>
+    <linearGradient id="color-2" bx:pinned="true">
+      <stop style="stop-color: #00f260;" offset="0"></stop>
+      <stop style="stop-color: #0575e6;" offset="1"></stop>
+    </linearGradient>
+    <linearGradient id="color-3" bx:pinned="true">
+      <stop style="stop-color: #ffd89b;" offset="0"></stop>
+      <stop style="stop-color: #19547b;" offset="1"></stop>
+    </linearGradient>
+    <linearGradient id="color-4" bx:pinned="true">
+      <stop style="stop-color: #dd3e54;" offset="0"></stop>
+      <stop style="stop-color: #6be585;" offset="1"></stop>
+    </linearGradient>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, -27.86698, -22.285353)">
+    <g>
+      <path style="fill: url(#color-1); stroke: rgb(0, 0, 0);" d="M 180.884 345.453 L 80.59 248.352 L 219.395 263.286 C 219.828 275.422 224.007 286.923 231.419 296.527 L 180.884 345.453 Z"></path>
+      <path style="fill: url(#color-3); stroke: rgb(0, 0, 0);" d="M 247.688 468.953 L 247.688 468.953 L 90.377 457.434 L 243.997 308.704 C 250.306 313.265 257.406 316.558 264.962 318.465 L 247.688 468.953 Z"></path>
+      <path style="fill: url(#color-1); stroke: rgb(0, 0, 0);" d="M 267.218 454.721 L 267.218 454.721 L 282.643 320.34 C 295.179 319.921 307.06 315.874 316.981 308.698 L 367.512 357.62 L 267.218 454.721 Z"></path>
+      <path style="fill: url(#color-3); stroke: rgb(0, 0, 0);" d="M 483.183 445.256 L 483.183 445.256 L 386.383 351.536 C 386.382 351.535 386.38 351.533 386.378 351.531 L 329.548 296.512 C 334.318 290.309 337.663 283.402 339.598 276.207 L 495.073 292.941 L 483.183 445.256 Z"></path>
+      <path style="fill: url(#color-1); stroke: rgb(0, 0, 0);" d="M 480.371 274.032 L 480.371 274.032 L 341.547 259.091 C 341.12 247.358 337.124 235.729 329.548 225.878 L 380.091 176.944 L 480.371 274.032 Z"></path>
+      <path style="fill: url(#color-1); stroke: rgb(0, 0, 0);" d="M 293.747 67.663 L 293.747 67.663 L 278.332 202.05 C 265.798 202.468 253.92 206.513 243.999 213.686 L 193.462 164.756 L 293.747 67.663 Z"></path>
+      <path style="fill: url(#color-3); stroke: rgb(0, 0, 0);" d="M 313.276 53.434 L 313.276 53.434 L 470.609 64.955 L 373.804 158.675 C 373.803 158.676 373.802 158.678 373.801 158.678 L 316.979 213.691 C 310.671 209.129 303.57 205.833 296.013 203.926 L 313.276 53.434 Z"></path>
+      <path style="fill: url(#color-3); stroke: rgb(0, 0, 0);" d="M 77.798 77.129 L 77.798 77.129 L 174.589 170.839 C 174.592 170.841 174.593 170.843 174.595 170.844 L 231.42 225.86 C 226.705 231.97 223.301 238.848 221.33 246.166 L 65.89 229.445 L 77.798 77.129 Z"></path>
+    </g>
+  </g>
+</svg>
