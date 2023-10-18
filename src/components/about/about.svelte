@@ -1,54 +1,23 @@
 <!-- FILEPATH: /c:/Users/Owner/Documents/Personal/SideProjects/adichops.github.io/src/components/about/About.svelte -->
-
-        <h2>About Me</h2>
-        <div class="about-content">
-            <img src="profile-pic.jpg" alt="Profile">
-            <p>
-                Hi there! My name is John Doe and I'm a full-stack web developer based in San Francisco, CA. I have a passion for creating beautiful, responsive websites and web applications that provide a great user experience.
-            </p>
-            <p>
-                I have experience working with a variety of technologies, including HTML, CSS, JavaScript, React, Node.js, and more. I'm always looking to learn new things and improve my skills, and I'm excited to take on new challenges and projects.
-            </p>
-            <p>
-                When I'm not coding, you can usually find me hiking in the mountains, playing guitar, or trying out new recipes in the kitchen.
-            </p>
-        </div>
+<div id="about">
+    <div><img src="/images/adi.png" alt=""></div>
+    <div>
+        <p class="heading">Hi! I'm Adi.</p>
+        <p id="subtitle">{description}</p>
+    </div>
+</div>
 
 <style>
-    .about-content {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 2rem;
-        background-color: #f5f5f5;
+    #about{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        width: 98%;
     }
-
-     h2 {
-        background-color: #f5f5f5;
-
-        font-size: 2rem;
-        margin-bottom: 1rem;
-    }
-
-    .about-content {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        max-width: 800px;
-        margin-top: 2rem;
-    }
-
-    .about-content img {
-        width: 200px;
-        height: 200px;
-        border-radius: 50%;
-        margin-bottom: 1rem;
-    }
-
-    .about-content p {
-        font-size: 1.2rem;
-        line-height: 1.5;
-        text-align: center;
-        margin-bottom: 1rem;
+    p{
+        font-size: max(1.25rem,min(.2589vw + 1.18932rem,1.5rem));
     }
 </style>
+
+<script>
+    export const description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi."
+</script>

@@ -1,12 +1,12 @@
-<main>
+<div id="home">
     <div id="summary">
         <p id="status">{status}</p>
-        <p id="name">Aaditya Chopra</p>
+        <p class="heading" id="name">Aaditya Chopra</p>
     </div>
     <div id="pinwheel">
         <img src="/images/pinwheel.svg" alt="Gears">
     </div>
-</main>
+</div>
 
 <style>
     @import './home.css';
@@ -26,7 +26,7 @@
         gsap.to("#pinwheel", {
             scrollTrigger:{
                 trigger: "#pinwheel",
-                start: "50% 50%",
+                start: "top 50%",
                 end: "bottom top",
                 markers: true,
                 scrub: 1

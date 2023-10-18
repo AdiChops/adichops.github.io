@@ -20,8 +20,6 @@
 }
 
 #name {
-    font-size: 3em;
-    color: #FAF9F6;
     margin: 0;
 }
 
@@ -36,7 +34,7 @@
     margin: 0;
 }
 
-main {
+#home {
     position: relative;
     display: grid;
     grid-template-columns: 1fr;
@@ -52,14 +50,10 @@ main {
         text-align: left;
         align-items: unset;
     }
-
-    #name {
-        font-size: 10em;
-    }
 }
 
 @media all and (min-width: 1024px) {
-    main {
+    #home {
         grid-template-columns: 1fr 1fr;
     }
 }
