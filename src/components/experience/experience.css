@@ -1,7 +1,7 @@
+
 /* Code adapted from Mark Boots (CodePen)
 
 Adapted from this codepen: https://codepen.io/MarkBoots/pen/OJOqNyB */
-
 *,
 *::before,
 *::after {
@@ -35,12 +35,13 @@ ul::before {
 /* columns*/
 
 /* row gaps */
-ul li:not(:last-child) {
+.exp:not(:last-child) {
     margin-bottom: var(--row-gap);
 }
 
 /* card */
-ul li {
+.exp {
+    opacity: 0;
     background-color: #363636;
     grid-column: 2;
     --inlineP: 1.5rem;
@@ -51,7 +52,7 @@ ul li {
 }
 
 /* date */
-ul li .date {
+.exp .date {
     --dateH: 3rem;
     height: var(--dateH);
     margin-inline: calc(var(--inlineP) * -1);
@@ -67,7 +68,7 @@ ul li .date {
 }
 
 /* date flap */
-ul li .date::before {
+.exp .date::before {
     content: "";
     width: var(--inlineP);
     aspect-ratio: 1;
@@ -80,31 +81,51 @@ ul li .date::before {
 }
 
 /* circle */
-ul li .date::after {
+#companies{
+    text-align: center;
+    margin: 1em;
+    border: solid 1px #ffecd1;
+}
+
+.company-badge{
+    display: inline-block;
+    margin: 0.5em;
+}
+
+.exp .date::after, .company-badge {
     content: "";
-    position: absolute;
     width: 3.5rem;
     aspect-ratio: 1;
     background-image: var(--bg-image);
     background-color: var(--bg-color);
-    background-size: 3rem;
+    background-size: 2.5rem;
     background-position: center;
     background-repeat: no-repeat;
     border-radius: 50%;
+}
+
+.exp .date::after{
+    position: absolute;
     top: 50%;
     transform: translate(50%, -50%);
     right: calc(100% + var(--col-gap) + var(--line-w) / 2);
 }
 
 /* title descr */
-ul li .title,
-ul li .descr {
+.title,
+.descr, 
+.technologies
+ {
     background: var(--bgColor);
     position: relative;
     padding-inline: 1.5rem;
 }
 
-ul li .title {
+.technologies{
+    font-weight: bold;
+}
+
+.exp .title {
     font-size: 1.5rem;
     overflow: hidden;
     padding-block-start: 1.5rem;
@@ -112,14 +133,13 @@ ul li .title {
     font-weight: bold;
 }
 
-ul li .descr {
+.exp .descr {
     padding-block-end: 1.5rem;
     font-weight: 300;
 }
 
 /* shadows */
-ul li .title::before,
-ul li .descr::before {
+.exp .title::before{
     content: "";
     position: absolute;
     width: 90%;
@@ -131,13 +151,28 @@ ul li .descr::before {
     transform: translate(-50%, 50%);
 }
 
-ul li .title::before {
+.exp .title::before {
     bottom: calc(100% + 0.125rem);
 }
 
-ul li .descr::before {
+.exp .descr::before {
     z-index: -1;
     bottom: 0.25rem;
+}
+
+.tech{
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-right: 1em;
+    display: inline-block;
+}
+.icon{
+    font-size: 2.5em;
+}
+
+.subtitle{
+    display: block;
+    font-size: 0.7em;
 }
 
 @media (min-width: 40rem) {
@@ -149,30 +184,30 @@ ul li .descr::before {
         grid-column: 2;
     }
     
-    ul li:nth-child(odd) {
+    .exp:nth-child(odd) {
         grid-column: 1;
     }
     
-    ul li:nth-child(even) {
+    .exp:nth-child(even) {
         grid-column: 3;
     }
 
     /* start second card */
-    ul li:nth-child(2) {
+    .exp:nth-child(2) {
         grid-row: 2/4;
     }
 
-    ul li:nth-child(odd) .date::before {
+    .exp:nth-child(odd) .date::before {
         clip-path: polygon(0 0, 100% 0, 100% 100%);
         left: 0;
     }
 
-    ul li:nth-child(odd) .date::after {
+    .exp:nth-child(odd) .date::after {
         transform: translate(-50%, -50%);
         left: calc(100% + var(--col-gap) + var(--line-w) / 2);
     }
     
-    ul li:nth-child(odd) .date {
+    .exp:nth-child(odd) .date {
         border-radius: 0 calc(var(--dateH) / 2) calc(var(--dateH) / 2) 0;
     }
 }

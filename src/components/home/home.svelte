@@ -24,15 +24,14 @@
 
     onMount(()=>{
         gsap.to("#pinwheel", {
+            id: "pinwheel",
             scrollTrigger:{
                 trigger: "#pinwheel",
                 start: "top 50%",
                 end: "bottom top",
-                markers: true,
                 scrub: 1
             },
             rotation: 360,
-            duration: 3
         });
 
     });
