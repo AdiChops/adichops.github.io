@@ -19,4 +19,7 @@ export const icons: IconMapping =
     "Node.js": "devicon:nodejs",
     "Express": "simple-icons:express",
     "MongoDB": "skill-icons:mongodb",
+    "C#": "devicon:csharp",
+    ".NET Framework MVC": "logos:dotnet",
+    "TFS":"vscode-icons:file-type-tfs"
 };

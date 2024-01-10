@@ -76,19 +76,21 @@
             <div class="date">{experience.duration}</div>
             <div class="title">{experience.position} @ {experience.company}</div>
             <div class="descr">{experience.description}</div>
-            <div class="technologies">
-                <p>Technologies:</p>
-                {#each experience.technologies as technology}
-                <div class="tech">
-                    {#if technology != "Mockito"}
-                    <Icon class="icon" icon={icons[technology]} />
-                    {:else}
-                    <img class="icon" width="40" height="40" src="/images/mockito.jpg" alt="Mockito logo">
-                    {/if}
-                    <span class="subtitle">{technology}</span>
+            {#if experience.technologies}
+                <div class="technologies">
+                    <p>Technologies:</p>
+                        {#each experience.technologies as technology}
+                        <div class="tech">
+                            {#if technology != "Mockito"}
+                            <Icon class="icon" icon={icons[technology]} />
+                            {:else}
+                            <img class="icon" width="40" height="40" src="/images/mockito.jpg" alt="Mockito logo">
+                            {/if}
+                            <span class="subtitle">{technology}</span>
+                        </div>
+                        {/each}
                 </div>
-                {/each}
-            </div>
+            {/if}
         </li>
     {/each}
     </ul>
