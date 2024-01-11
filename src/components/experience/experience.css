@@ -169,7 +169,6 @@ ul::before {
 .icon{
     font-size: 2.5em;
 }
-
 .subtitle{
     display: block;
     font-size: 0.7em;
@@ -209,5 +208,10 @@ ul::before {
     
     .exp:nth-child(odd) .date {
         border-radius: 0 calc(var(--dateH) / 2) calc(var(--dateH) / 2) 0;
+    }
+    
+    #experience{
+        width: 98%;
+        margin: auto;
     }
 }
