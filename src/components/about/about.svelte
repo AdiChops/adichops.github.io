@@ -4,13 +4,32 @@
     <div id="desc">
         <p class="heading">Hi! I'm Adi.</p>
         <p id="subtitle">{@html description}</p>
+        <div id="socials">
+            <a href="https://linkedin.com/in/aaditya-chopra" target="_blank"><Icon class="icon" icon="skill-icons:linkedin"/></a>
+            <a href="https://github.com/AdiChops" target="_blank"><Icon class="icon" icon="skill-icons:github-light"/></a>
+        </div>
     </div>
+
 </div>
 
 <style>
+    #socials{
+        margin-top: 1rem;
+    }
+    #socials a{
+        margin: 0 1rem;
+    }
+
+    #socials a:hover{
+        opacity: 0.75;
+    }
 
     #img{
         grid-area: image;
+    }
+
+    #img img{
+        max-width: 100%;
     }
     #desc{
         grid-area: description;
@@ -38,6 +57,7 @@
 </style>
 
 <script>
+    import Icon from '@iconify/svelte';
     export const description = `Thanks for stopping by! I'm Aaditya Chopra (you could just call me Adi). I'm a recent graduate (with high distinction) from the Computer Science major program at Carleton University. 
     
 I have also completed a Computer Science Technology diploma at CÉGEP Heritage College.
